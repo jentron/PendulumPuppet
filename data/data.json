@@ -1,0 +1,17 @@
+{
+ "limbs":[
+  {"label":"Body", "origin":{"x":0, "y":0}, "position":{ "x":0, "y":266 }, "imagepos":{ "x":0, "y":0 }, "length":130, "offset":-3.14159, "damping":0.9, "image":"body.png" },
+  {"label":"Head", "origin":{"x":0, "y":-160}, "position":{ "x":0, "y":0 }, "imagepos":{ "x":0, "y":-50 }, "length":40, "offset":-3.14159, "damping":0.975, "image":"head.png", "parent":"Body" },
+  {"label":"armUpperRight", "origin":{"x":89, "y":137}, "position":{ "x":0, "y":0 }, "imagepos":{ "x":-5, "y":-66 }, "length":130, "offset":0, "damping":0.985, "image":"armUpperRight.png", "parent":"Body" },
+  {"label":"armUpperLeft", "origin":{"x":-89, "y":137}, "position":{ "x":0, "y":0 }, "imagepos":{ "x":7, "y":-64 }, "length":130, "offset":0, "damping":0.985, "image":"armUpperLeft.png", "parent":"Body"},
+  {"label":"armLowerRight", "origin":{"x":0, "y":0}, "position":{ "x":0, "y":0 }, "imagepos":{ "x":-6, "y":-58 }, "length":117, "offset":0, "damping":0.985, "image":"armLowerRight.png", "parent":"armUpperRight" },
+  {"label":"armLowerLeft", "origin":{"x":0, "y":0}, "position":{ "x":0, "y":0 }, "imagepos":{ "x":6, "y":-58 }, "length":117, "offset":0, "damping":0.985, "image":"armLowerLeft.png", "parent":"armUpperLeft" },
+  {"label":"handRight", "origin":{"x":0, "y":0}, "position":{ "x":0, "y":0 }, "imagepos":{ "x":-3, "y":-43 }, "length":100, "offset":0, "damping":0.985, "image":"handRight.png", "parent":"armLowerRight" },
+  {"label":"handLeft", "origin":{"x":0, "y":0}, "position":{ "x":0, "y":0 }, "imagepos":{ "x":3, "y":-46 }, "length":100, "offset":0, "damping":0.985, "image":"handLeft.png", "parent":"armLowerLeft" },
+  {"label":"thighRight",  "origin":{"x": 50, "y":-131},"position":{ "x":-50, "y":266 }, "imagepos":{ "x":0, "y":-105 }, "length":188, "offset":0, "damping":0.985, "image":"thighRight.png", "parent":"Body"},
+  {"label":"thighLeft", "origin":{"x":-50, "y":-131}, "position":{ "x":50, "y":266 }, "imagepos":{ "x":0, "y":-105 }, "length":188, "offset":0, "damping":0.985, "image":"thighLeft.png", "parent":"Body"},
+  {"label":"calfRight", "origin":{"x":0, "y":0}, "position":{ "x":0, "y":0 }, "imagepos":{ "x":-10, "y":-108 }, "length":230, "offset":0, "damping":0.985, "image":"calfRight.png", "parent":"thighRight" },
+  {"label":"calfLeft", "origin":{"x":0, "y":0}, "position":{ "x":0, "y":0 }, "imagepos":{ "x":10, "y":-108 }, "length":230, "offset":0, "damping":0.985, "image":"calfLeft.png", "parent":"thighLeft" },
+
+ ]
+}
