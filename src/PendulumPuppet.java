@@ -137,6 +137,7 @@ public class PendulumPuppet extends PApplet {
 		}
 		if (key == 'p') {
 			pendulum = !pendulum;
-		}	}
+		}	
+	}
 
 }
